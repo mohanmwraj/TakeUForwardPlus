@@ -18,7 +18,7 @@ public class robinKarpAlgorithm {
         * Use two nested loops
         *
      */
-    public List<Integer> search(String pat, String txt) {
+    public List<Integer> search_1(String pat, String txt) {
         int n = pat.length();
         int m = txt.length();
         List<Integer> ans = new ArrayList<>();
@@ -47,7 +47,7 @@ public class robinKarpAlgorithm {
         *
         *
      */
-    public List<Integer> search(String pat, String txt) {
+    public List<Integer> search_2(String pat, String txt) {
         long hashPat = 0;
         long hashWindow = 0;
         long pr = 7L;
